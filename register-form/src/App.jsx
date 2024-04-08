@@ -2,7 +2,13 @@ import "./App.css";
 import Home from "./Home";
 
 function App() {
-  return <Home />;
+  return (
+    <div>
+      <div>
+        <Home />
+      </div>
+    </div>
+  );
 }
 
 export default App;
